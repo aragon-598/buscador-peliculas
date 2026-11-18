@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(180deg, #eef3ff 0%, #f8f9fc 100%);
+	color: #1f2937;
+}
+
+.app-card {
+	max-width: 900px;
+	background: #ffffff;
+	border: 1px solid #e5e7eb;
+}
+
+.movie-item {
+	border: 1px solid #e5e7eb;
+	border-radius: 12px;
+	background: #fbfcff;
+	height: 100%;
+}
+
+.movie-poster {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+	border-radius: 10px;
+	background: #e5e7eb;
+}
+
+.movie-summary {
+	font-size: 0.92rem;
+	color: #4b5563;
+}
